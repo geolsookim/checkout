@@ -12,8 +12,9 @@ The returned integer is the total price of the list of items
 
 ## Requirements
 
-Python 3
-requests==2.13.0
+- Python 3
+
+- requests==2.13.0
 
 
 ## Assumptions
