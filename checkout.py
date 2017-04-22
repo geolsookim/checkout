@@ -27,6 +27,9 @@ def checkout(url, items):
 
     >>> checkout(' https://api.myjson.com/bins/gx6vz', [])
     0
+
+    >>> checkout(' https://api.myjson.com/bins/gx6vz', ['XYZ'])
+    0
     """
 
     try:
