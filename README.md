@@ -38,7 +38,7 @@ So for example, if 'https://price_url.com/' is a json service that returns the f
 }
 ```
 
-then the string 'AS' represents a bundle of 3 'A' items, and a call to the function
+then the string 'A*' represents a bundle of 3 'A' items, and a call to the function
 
 ```python
 checkout('https://price_url.com', ['A', 'A*'])
